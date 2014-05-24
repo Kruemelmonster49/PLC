@@ -1,0 +1,48 @@
+@Preamble{"\def\germ{\frak} \def\scr{\cal}
+ \ifx\documentclass\undefinedcs
+      \def\bf{\fam\bffam\tenbf}\def\rm{\fam0\tenrm}\fi
+                          % f**k-amstex!
+ \def\defaultdefine#1#2{\expandafter\ifx\csname#1\endcsname\relax
+ \expandafter\def\csname#1\endcsname{#2}\fi}
+ \defaultdefine{Bbb}{\bf}   \defaultdefine{frak}{\bf}
+  \defaultdefine{=}{\B}   % doublef**k-amstex!!
+  \defaultdefine{mathfrak}{\frak}
+       \defaultdefine{mathbb}{\bf}
+       \defaultdefine{mathcal}{\cal}
+      \defaultdefine{beth}{BETH}\defaultdefine{cal}{\bf}
+     \def\bbfI{{\Bbb I}}   \def\mbox{\hbox}  \def\text{\hbox}
+   \def\om{\omega}    \def\Cal#1{{\bf #1}} \def\pcf{pcf}
+        \defaultdefine{cf}{cf}
+    \defaultdefine{reals}{{\Bbb R}} \defaultdefine{real}{{\Bbb R}}
+   \def\restriction{{|}}  \def\club{CLUB}
+   \def\w{\omega} \def\exist{\exists}
+   \def\se{{\germ se}}     \def\bb{{\bf b}}
+   \def\equivalence{\equiv}
+   \let\lt<  \let\gt>
+           "}
+
+
+
+
+
+@misc{Zitat01,
+  title = {{Datenkommunikation}},
+  howpublished = {\url{http://www.elektronikpraxis.vogel.de/themen/hardwareentwicklung/datenkommunikationsics/articles/146756/}},
+  note = {Accessed: 2014-05-23}
+},
+
+
+@misc{Zitat02,
+  title = {{Dostert.pdf}},
+  howpublished = {\url{http://www.net-im-web.de/pdf/Dostert.pdf}},
+  note = {Accessed: 2014-05-23}
+},
+
+@book{PLC,
+    author    = "Hendrik C. Ferreira and Lutz Lampe and John Newbury and The G. Swart",
+    title     = "Power Line Communications - Theory and Applications of Narrowband and Broadband Communications over Power Lines",
+    year      = "2010",
+    publisher = "WILEY",
+    address   = "John Wiley & Sons Ltd, The Atrium, Southern Gate,Chiehester, West Sussex, PO19 8SQ, United Kingdom"
+}
+
